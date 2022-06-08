@@ -7,13 +7,11 @@ import SortierDialog from "./components/SortierDialog";
 
 /**
  * @version 1.0
- * @author Alfred Walther <alfred.walther@syntax-institut.de>
+ * @author Nico Stanislawski <bro11442@googlemail.com>
  * @description Diese App ist eine Einkaufsliste mit React.js und separatem Model, welche Offline verwendet werden kann
  * @license Gnu Public Lesser License 3.0
  *
  */
-
-
 class App extends React.Component {
     constructor(props) {
         super(props)
