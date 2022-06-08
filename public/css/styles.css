@@ -1,0 +1,120 @@
+#root {
+    width: 23rem;
+    background-image: url("../img/green.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: inherit;
+}
+#container {
+    opacity: 100%;
+}
+:root {
+    --mdc-theme-primary: #113F1EFF;
+    --mdc-theme-secondary: #827717;
+}
+dt {
+    background-color: #8d3522;
+    color: var(--mdc-theme-on-primary);
+}
+h2, dd {
+    background-color: var(--mdc-theme-on-primary);
+    color: black;
+}
+
+.aktiv { background-color: #113f1e
+}
+.inaktiv { background-color: #113f1e
+}
+h1, h2, dl {
+    margin: 0;
+}
+h1 {
+   color: white;
+    text-align: center;
+    background: black;
+}
+h2 {
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+i.material-icons {
+    cursor: pointer;
+    float: right;
+}
+button.material-icons {
+    font-size: inherit;
+    vertical-align: bottom
+}
+[type="checkbox"] {
+    vertical-align: top;
+    margin-right: 5px;
+}
+dt {
+    display: flex;
+    font-weight: 500;
+    padding: 5px 5px;
+    margin: 20px;
+    border-radius: 30px;
+}
+dt span {
+    width: 100%;
+    text-align: center;
+
+}
+dt, dd {
+    height: 2rem;
+    font-size: 1.2rem;
+}
+dd {
+    display: flex;
+    margin-left: 0;
+    margin: 5px;
+}
+dd label {
+    padding: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+dd label input[type="checkbox"] {
+    margin: 10px 10px;
+}
+dd input[type="search"] {
+    margin-left: 1.5rem;
+}
+.mdc-text-field {
+    height: 2rem;
+}
+
+label {
+    width: 91%;
+    cursor: pointer
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mdc-dialog {
+    opacity: 100%;
+}
+.mdc-dialog__surface {
+    position: absolute;
+    top: 10%;
+    left: 25px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
