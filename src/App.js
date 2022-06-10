@@ -180,7 +180,7 @@ class App extends React.Component {
         return (
             <div id="container">
                 <header>
-                    <h1>Einkaufsliste</h1>
+                    <h1>Gamelist</h1>
                     <label
                         className="mdc-text-field mdc-text-field--filled mdc-text-field--with-trailing-icon mdc-text-field--no-label">
                         <span className="mdc-text-field__ripple"></span>
